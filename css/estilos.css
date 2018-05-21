@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:700" );
+@import url("https://fonts.googleapis.com/css?family=Quattrocento");
+
 
 *{
     box-sizing: border-box;
@@ -15,7 +18,8 @@ img {
 
 body{
     margin: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Quattrocento', serif;
+    font-size: 110%;
     background: #0E3C48;
     text-align: justify;
 }
@@ -23,15 +27,69 @@ body{
 /*----------------------Estilos del header----------------------*/
 .info__txtteam1{
     color: #fff;
+    font-weight:normal;
 } 
+.iconito{
+   width: 94px;
+}
+.iconitoc{
+   width: 133px;
+}
+.iconitod{
+    width: 140px;
+    margin-left: -1%;
+}
+
+.iconitom{
+    width: 190px;
+    margin-left: -1%;
+}
+.iconitomarc{
+    width: 131px;
+    margin-left: -0.5%;
+}
+.iconitol{
+    width: 129px;
+    margin-left: -0.25%;
+}
+.lndimi{
+    width: 164px;
+    margin-left: -1%;
+}
+.lnoscar{
+    width:254px;
+    margin-left: -0.25%;
+}
+.lnjordi{
+    width: 149px;
+    margin-left: -0.75%;
+}
+.lnlaura{
+    width: 200px;
+    margin-left: -0.4%;
+    margin-bottom: -2.5%;
+}
+.lnmarc{
+    margin-left: -0.5%;
+}
+.lneva{
+    width: 168px;
+    margin-left: -0.6%;
+}
 .info__txtteam{
     color: #fff;
+    font-weight:normal;
+}
+.info__txtteamtitulo{
+    color: #fff;
+    
 }
 .info__titulo26{
     color: #fff;
 }
 .info__txtproject{
     color: #fff;
+    font-weight:normal;
 }
 .info__txtproject0{
     color: #fff;
@@ -91,7 +149,7 @@ body{
 .logo {
     margin: 0px;
     padding: 0px;
-   
+   width: 100%;
     
     
 }
@@ -200,6 +258,9 @@ body{
     color: #fff;
     margin: 10px;
     width: auto;
+    font-family: 'PT Serif', serif;
+    font-size: 140%;
+    
 }
 
 .info__txt2{
@@ -238,7 +299,7 @@ body{
 .logo__upf{
         margin: 10px;
     width:300%;
-    height: 230%
+    height: 230%;
     transform: translateX(-10000000%) translateY(0%);
 }
 
@@ -527,6 +588,7 @@ body{
 @media(min-width:480px) {
   .logo {
     font-size: 40px;
+    margin-right: -1000px;
   }
   .banner__titulo {
     font-size: 30px;
@@ -556,7 +618,9 @@ body{
 }
 @media(min-width:525px) {
     
-    
+    .logo{
+        height: 100%;
+    }
     .grupopeque2{
     width: auto;
 	margin: 0;
@@ -653,6 +717,9 @@ body{
     transform: translateX(0%) translateY(30%);
     
 }
+    .logo{
+        width: 70%;
+    }
     .info__txtteam{
     text-align: justify;
         
@@ -868,6 +935,9 @@ body{
     }
     .mai{
         display: flex;
+        width: 100%;
+        transform: translateY(-250%);
+        margin-bottom: -20%;
     }
     .promega{
     width: 45%;
@@ -904,21 +974,18 @@ body{
         width: 150%;
         transform: translateX(-35%) translateY(0%);
     }
-    .twitter-timeline1{
-        
-    }
     
 }
 @media(min-width:1250px){
-    .twitter-timeline{
+    .tweets2{
     float: right;
-    transform: translateX(0%) translateY(-91%);
+    transform: translateX(0%) translateY(-120%);
     margin: 200px;
 }
 .vanguardia{
     width: 50%;
     margin: 20px;
-    transform: translateX(0%) translateY(-470%);
+    transform: translateX(0%) translateY(-600%);
 }
     .igemimg{
         padding: 5%;
