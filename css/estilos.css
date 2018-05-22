@@ -52,6 +52,10 @@ body{
     width: 129px;
     margin-left: -0.25%;
 }
+.lnmarta{
+    width: 240px;
+    margin-left: -0.8%;
+}
 .lndimi{
     width: 164px;
     margin-left: -1%;
@@ -107,9 +111,11 @@ body{
 }
 .img4__team{
     display: none;
+    border-radius: 50%;
 }
 .img3__team{
     display: none;
+    border-radius: 50%;
 }
 .info__txtproject{
     text-align: justify;
@@ -454,6 +460,7 @@ body{
 
 .info__img{
     width: auto;
+    border-radius: 50%;
 }
  .contenedor33{
         display: none;
